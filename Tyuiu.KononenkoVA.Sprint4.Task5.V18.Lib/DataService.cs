@@ -1,6 +1,9 @@
-﻿namespace Tyuiu.KononenkoVA.Sprint4.Task5.V18.Lib
+﻿using System.Threading.Tasks.Dataflow;
+using tyuiu.cources.programming.interfaces.Sprint4;
+
+namespace Tyuiu.KononenkoVA.Sprint4.Task5.V18.Lib
 {
-    public class DataService
+    public class DataService : ISprint4Task5V18
     {
         public int[,] Calculate(int[,] matrix)
         {
